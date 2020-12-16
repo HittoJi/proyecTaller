@@ -1,0 +1,6 @@
+{
+    "datosServicios": [
+        { "idProducto": 100, "nombre": "Revision ITV", "descripcion": "Realizamos una revision a un veiculos antes de que lo lleve a una itv.", "img": "Servicios/01.jpg", "precio": "50€" },
+        { "idProducto": 99, "nombre": "Filtro de aceite", "descripcion": "Si deseamos que nuestro vehículo conserve un rendimiento óptimo con el paso de los años, es fundamental respetar los periodos de revisión y mantenimiento decretados por el fabricante. Éstos, además del cambio de aceite periódico, incluyen otras medidas fundamentales como cambiar los filtros de aceite, los filtros del aire o los neumáticos.", "img": "Servicios/02.jpg", "precio": "50€" }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "datosClientes": [
+        { "dni": "", "email": "jit@alumno.com", "id": 1, "nombre": "jit", "numtlf": "", "pwsd": 12 },
+        { "dni": "", "email": "juan@alumno.com", "id": 2, "nombre": "juan", "numtlf": "", "pwsd": 12 }
+    ]
+}

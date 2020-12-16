@@ -1,0 +1,7 @@
+{
+    "datosCoches": [
+        { "idCliente": "1", "matricula": "1111ABC" },
+        { "idCliente": "1", "matricula": "2222ABC" },
+        { "idCliente": "2", "matricula": "3333ABC" }
+    ]
+}

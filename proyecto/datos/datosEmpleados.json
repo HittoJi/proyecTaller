@@ -1,0 +1,6 @@
+{
+    "datosEmpleados": [
+        { "dni": "20611371D", "idEmpleado": "1", "nombre": "admin", "pswd": "admin" },
+        { "dni": "20611370D", "idEmpleado": "2", "nombre": "paco", "pswd": "12" }
+    ]
+}

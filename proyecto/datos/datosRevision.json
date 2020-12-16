@@ -1,0 +1,7 @@
+{
+    "datosRevision": [
+        { "idCliente": 1, "tipoRevision": "Cambio de accite de motor", "piezasCambiadas": "Aceite plus 500", "fechaYhora": "xxxx", "mecanidoId": "1", "observaciones": "Pastillas de feno por cambiar", "matricula": "1111ABC" },
+        { "idCliente": 1, "tipoRevision": "Pastillas de freno", "piezasCambiadas": "Pastillas de freno 9562X", "fechaYhora": "xxxx", "mecanidoId": "2", "observaciones": "La ventanilla del conductor no baja", "matricula": "2222ABC" },
+        { "idCliente": 2, "tipoRevision": "Correa de distribucion", "piezasCambiadas": "Correa DC70", "fechaYhora": "xxxx", "mecanidoId": "1", "observaciones": "Necesita un cambio de filtros", "matricula": "3333ABC" }
+    ]
+}

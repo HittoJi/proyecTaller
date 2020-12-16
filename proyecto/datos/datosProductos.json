@@ -1,0 +1,8 @@
+{
+    "datosProductos": [
+
+        { "idProducto": "1", "nombre": "Pastillas de freno", "descripcion": "Algunos jabones domésticos pueden dañar o desgastar los materiales sintéticos del interior del coche, por lo que es aconsejable utilizar este líquido, fabricado específicamente para proteger los diferentes materiales del interior y limpiarlos a fondo. Es adecuado para utilizarlo sobre plástico, piel, vinilo o metal, así como sobre equipo de audio o vídeo. Además, deja una agradable fragancia con olor fresco.", "img": "Productos/01.jpg", "precio": "14,55€" },
+        { "idProducto": "2", "nombre": "Sisbrill 361", "descripcion": "Limpiador Interior y Exterior del Vehículo - Tapicería, Salpicadero, Cuero, Mosquitos - 750 ml ", "img": "Productos/02.jpg", "precio": "15€" },
+        { "idProducto": "3", "nombre": "Meguiars Swirl Remover", "descripcion": "Producto para eliminar marcas circulares de la carrocería del coche (450 ml) ", "img": "Productos/03.jpg", "precio": "22€" }
+    ]
+}

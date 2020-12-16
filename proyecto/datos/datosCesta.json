@@ -1,0 +1,7 @@
+{
+    "datosCesta": [
+        { "idProducto": 1, "idCliente": 1 },
+        { "idProducto": 2, "idCliente": 1 },
+        { "idProducto": 3, "idCliente": 2 }
+    ]
+}

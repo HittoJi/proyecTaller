@@ -1,0 +1,397 @@
+/* -----------------LOGIN--------------------------- */
+
+body {
+    /* background-color: black; */
+}
+
+.loginPageContenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginItemsContenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* -----------------CITA----------------------------- */
+
+h3 {
+    text-align: center;
+}
+
+.citaPageContenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.citaItemsContenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.citaItems {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.citaItems2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.loginCitaItems {
+    /* color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCitaItems button {
+    margin-top: 25px;
+}
+
+.citaContenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.tarjetaCita {
+    border: red 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* -----------------BArra--------------------------- */
+
+.barraSuperrior {
+    background-color: gray;
+    /* border-radius: 5px; */
+    /* width: 100%; */
+    /* height: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hallo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: red;
+}
+
+.menuUsuarioOpciones {
+    display: flex;
+    flex-direction: column;
+    /* border: black solid 2px; */
+    background-color: lavender;
+    font-weight: bold;
+    position: fixed;
+    top: 1.9em;
+    right: 1px;
+}
+
+#soyEmpleado {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.loginItemsContenedor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+}
+
+.contenedorMatricula {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorMatricula button {
+    margin: 10px;
+}
+
+
+/*Nuevo Producto-------------------------------------------------------------*/
+
+.nuevoProductoItemsContenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nuevoProductoItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.nuevoProductoItems input {
+    width: 150px;
+}
+
+#foroProductoContenedor {
+    border: solid 1px black;
+    width: 300px;
+    height: 250px;
+}
+
+#preview {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+}
+
+#errorTipo {
+    color: red;
+}
+
+
+/*Tarjeta Producto-------------------------------------------------------------*/
+
+.contenedorTarjetas {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tarjetaProducto {
+    border: solid grey 1px;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.tarjetaProducto h3 {
+    text-align: center;
+}
+
+.tarjetaProducto:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.tarjetaProducto img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.tarjetaProducto p {
+    height: 100px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.tarjetaProducto span {
+    display: flex;
+    position: relative;
+    top: -16px;
+    padding-left: 10px;
+}
+
+.tarjetaProducto button {
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    border-bottom-right-radius: 18px;
+}
+
+.precioYboton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .tarjetaProducto {
+        border: solid grey 1px;
+        margin: 10px;
+        width: 137px;
+        height: 277px;
+        border-radius: 20px;
+    }
+    .tarjetaProducto img {
+        position: relative;
+        justify-content: center;
+        width: 120px;
+        height: 90px;
+    }
+    .tarjetaProducto span {
+        display: flex;
+        position: relative;
+        padding-left: 10px;
+        justify-content: center;
+    }
+    .tarjetaProducto button {
+        display: flex;
+        position: relative;
+        align-self: flex-start;
+        top: -25px;
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 100%;
+        border-bottom-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+    }
+    .precioYboton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 5px;
+    }
+}
+
+
+/*Tarjeta Servicio-------------------------------------------------------------*/
+
+.contenedorServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tarjetaServicio {
+    margin: 10px;
+    border: solid 1px grey;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 150px;
+}
+
+.tarjetaServicio img {
+    height: 150px;
+}
+
+.DescriocionYnombre {
+    margin: 5px;
+    overflow: scroll;
+}
+
+.precioYbotonServicio {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* @media only screen and (min-width: 600px) {
+    .tarjetaServicio img {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+} */
+
+@media only screen and (max-width: 700px) {
+    .tarjetaServicio img {
+        display: flex;
+        justify-content: center;
+        width: 20px;
+        height: auto;
+    }
+}
+
+.contenedorTarjetasRecientes {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    overflow: scroll;
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+
+
+/*Tarjeta Cesta-------------------------------------------------------------*/
+
+.tarjetaCesta {
+    margin: 10px;
+    border: solid 1px grey;
+    display: grid;
+    grid-template-columns: 1fr 3fr .5fr;
+    grid-template-rows: 150px;
+}
+
+.tarjetaCesta img {
+    height: 150px;
+}
+
+.tarjetaCesta p {
+    margin: 5px;
+    overflow: scroll;
+    height: 100px;
+}
+
+.cantidadDeProudctoContener {
+    text-align: center;
+}
+
+
+/*
+.cantidadDeProudctoContener span {
+    color: black;
+    margin-top: 20px;
+}
+
+.cantidadDeProudctoContener input {
+    width: 100px;
+}
+
+.cantidadDeProudctoContener button {
+    height: 29px;
+}
+
+*/
